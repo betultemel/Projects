@@ -587,4 +587,10 @@ server <- function(input, output, session) {
 shinyApp(ui, server)
 
 library("rsconnect")
-install.packages("remotes")
+rsconnect::setAccountInfo(name='betultemel',
+                          token='5375DC3478426805A9F309841DE40409',
+                          secret='7E17iAQOm3pDnTa3WzVW7UARli3Fq2QEJAotYYBD')
+
+rsconnect::setAccountInfo(name='betultemel',
+                          token='5375DC3478426805A9F309841DE40409',
+                          secret='7E17iAQOm3pDnTa3WzVW7UARli3Fq2QEJAotYYBD')
